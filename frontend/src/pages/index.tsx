@@ -74,7 +74,7 @@ return(
           <input placeholder='Name'
             value = {newUser.name}
             onChange ={(e) =>setNewUser({...newUser, name: e.target.value})}
-            className="w-full p-2 mb-2 border border-gray-200 rounded"
+            className="w-full p-2 mb-2 border border-gray-200 rounded text-black"
           />
           <input placeholder='Email'
             value = {newUser.email}
